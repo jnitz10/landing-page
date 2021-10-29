@@ -6,6 +6,9 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
 }
 
 ul {
@@ -21,12 +24,183 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+}
+.hero {
+    width: 50%;
 }
 
 .headerlogo {
     color: #F9FAF8;
+    font-size: 24px;
 }
 
 .headerlinks {
     color: #F9FAF8;
 }
+
+.heromain {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.herosecondary {
+    color: #E5E7EB;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+.randomInfoBox {
+    width: 170px;
+    height: 170px;
+    border-radius: 7px;
+  }
+  
+  #randomInfoWrapper {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .randomInfo li {
+    color: hsl(0, 0%, 38%);
+  }
+  
+.randomInfo {
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 170px;
+    text-align: center;
+  }
+  
+  #box1 {
+    background-color: #1F2937;
+  }
+  
+#second h3 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#third h3 {
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#third h4 {
+    text-align: right;
+    margin-right: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    padding-inline: 10rem;
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: white;
+    flex: 1;
+    margin-top: 150px;
+    margin-bottom: 3rem;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+  
+  #cta-left h4 {
+    margin: 0;
+  }
+  
+  #cta-left p {
+    margin: 0;
+  }
+  
+  #cta-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+  }
+  
+  #cta-button {
+    background-color: inherit;
+    color: white;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding-inline: 2rem;
+  }
+  
+  #signUp {
+    padding-inline: 2rem;
+    padding-block: 7px;
+    outline: none;
+    border-radius: 7px;
+    font-weight: 500;
+    background-color: #3882F6;
+    color: white;
+  }
+  
+  .signUp-hero {
+    border: 0;
+  }
+  
+  #signUp:hover {
+    cursor: pointer;
+  }
+  
+  .signUp-cta {
+    border: 2px solid white;
+  }
+  
+  #signUp:hover {
+    background-color: white;
+    color: #3882F6;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  #footer {
+    gap: 7px;
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 14rem;
+    padding-block: 2rem;
+  }
